@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Formulário</title>
+</head>
+<body>
+
+    <header>
+        <i class="fa-sharp fa-solid fa-flag-usa"></i>
+        <h1 id="titulo">Formulário ESTA</h1>
+        <h2>Informações Pessoais</h2>
+        
+
+
+        <div class="menu-container">
+            <nav>
+                <ul>
+                <li class="nav-item">
+                    <i class="fa-solid fa-house"></i>
+                    <a class="nav-link" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fa-solid fa-address-card"></i>
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fa-sharp fa-solid fa-print"></i>
+                    <a class="nav-link" href="#">Serviços</a>   
+                </li>
+                <li class="nav-item">
+                    <i class="fa-solid fa-image-portrait"></i>
+                    <a class="nav-link" href="">Portfólio</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fa-solid fa-address-book"></i>
+                    <a class="nav-link" href="">Contato</a>
+                </li>
+            </ul>
+            </nav>
+
+        </div>
+    </header>
+    <hr>
+
+   
+    <main>
+        <form>
+        <fieldset>
+            <legend><strong>Dados pessoais:</strong></legend>
+        <div class="name">
+            <label for="name">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" name="name" id="name" required placeholder="Nome Completo">
+            
+          </label>
+        </div><br>
+
+
+        <div class="sobrenome">
+            <label for="sobrenome">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="sobrenome" id="sobrenome" required placeholder="Insira seu sobrenome">
+
+            </label>
+
+        </div><br>
+
+
+        <div class="pai">
+            <label for="pai">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="pai" id="pai" required placeholder="Insira o nome do seu pai">
+
+            </label>
+
+        </div><br>
+
+
+        <div class="mãe">
+            <label for="">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="mãe" id="mãe" required placeholder="Insira o nome da sua mãe">
+            </label>
+
+        </div><br>
+    
+
+        <div class="email">
+            <label for="">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" id="email" required placeholder="Insira seu E-mail:">
+            </label>
+        </div>
+
+
+        <div class="senha">
+            <label for="">
+
+            </label>
+        </div>
+    </fieldset><br>
+    
+
+
+
+
+    <fieldset>
+        
+        <legend><strong>Selecione seu sexo:</strong></legend>
+        
+        <div class="sexo">
+            <input type="radio" id="sexo1" name="sexo" value="sexo1">
+            <label for="sexo1">Masculino</label>
+            <input type="radio" name="sexo" id="sexo2" value="sexo2">
+            <label for="sexo2">Feminino</label>
+            <input type="radio" name="sexo" id="sexo3" value="sexo3">
+            <label for="sexo3">Gênero neutro</label>
+            <label for="sexo4">Transgênero</label>
+            <input type="radio" name="sexo" id="sexo4" value="sexo4">
+            <label for="sexo4">Não-binário</label>
+            <input type="radio" name="sexo" id="sexo5" value="sexo5">
+            <label for="sexo5">Agênero</label>
+            <input type="radio" name="sexo" id="sexo6" value="sexo6">
+            <label for="sexo6">Pangênero</label>
+            <input type="radio" name="sexo" id="sexo7" value="sexo7">
+            <label for="sexo7">Genderqueer,two-spirit</label>
+            <input type="radio" name="sexo" id="sexo8" value="sexo8">
+            <label for="sexo8">Terceiro gênero e todos</label>
+            <input type="radio" name="sexo" id="sexo9" value="sexo9">
+            <label for="sexo9">Nenhum ou uma combinação  destes.</label>
+
+        
+
+        </div>
+    </fieldset><br>
+
+    <div class="dados">
+    <fieldset>
+        <legend><strong>Cor/Etnia:</strong></legend>
+
+        <input type="radio" name="cor" id="cor1" value="branca">
+        <label for="branca">Branca</label>
+        <input type="radio" name="cor" id="cor2" value="preta">
+        <label for="preta">Preta</label>
+        <input type="radio" name="cor" id="cor3" value="amarelo">
+        <label for="amarelo">Amarelo</label>
+        <input type="radio" name="cor" id="cor4" value="parda">
+        <label for="parda">Parda</label>
+        <input type="radio" name="cor" id="cor5" value="indigena">
+        <label for="indigena">Indigena</label>
+    </fieldset>
+   </div><br>
+
+
+
+   <div class="fale conosco!">
+    <fieldset>
+        <legend><strong>Fale conosco!</strong></legend>
+        <label for="empresa">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <input type="text" name="empresa" id="empresa" required placeholder="Empresa:">
+        </label><br><br>
+
+        <label for="numero">
+            <i class="fa-solid fa-phone"></i>
+            <input type="tel" name="numero" id="numero" required placeholder="Insira seu número">
+            
+        </label><br><br>
+
+        <label for="ddd">
+            <i class="fa-solid fa-phone"></i>
+            <input type="tel" name="ddd" id="ddd" required placeholder="Seu telefone com DDD">
+        </label><br><br>
+
+
+        <label for="login">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <input type="text" name="login" id="login" required placeholder="Insira seu login da empresa">
+        </label>
+    </fieldset>
+   </div><br>
+
+
+    <div class="fale conosco">
+        <fieldset>
+            <legend><strong>Envie seu comentário</strong></legend>
+            <textarea name="" id="" cols="60" rows="20"></textarea>
+
+            <div class="butão">
+                <i class="fa-sharp fa-solid fa-trash-can-arrow-up"></i>
+                <input type="reset" name="reset" id="reset">
+            </div><br>
+
+            <div class="enviar butão">
+                <i class="fa-solid fa-file-import"></i>
+                <button type="submit">Enviar</button>
+
+            </div>
+
+
+        </fieldset>
+    </div>
+   
+</form>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div>
+                <h4>Sobre a Empresa</h4>
+                <p>A Empresa XYZ é uma empresa líder no mercado de produtos e serviços de alta qualidade. Estamos comprometidos em fornecer aos nossos clientes os melhores produtos e serviços, combinados com excelente atendimento ao cliente.
+
+                </p>
+                <p> <i class="fa-solid fa-map-location"></i>123 Rua Principal, Cidade, Estado, País
+                </p>
+                <p> <i class="fa-solid fa-phone"></i>(00) 1234-5678</p>
+                
+
+
+                <p> <i class="fa-solid fa-envelope"></i>info@empresa.com</p>
+
+                
+
+                
+                    
+                
+
+            </div>
+        </div>
+
+
+        <div class="Links úteis">
+            <ul class="list-links">
+                <li><a href="#">Página inicial</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="#">Carreiras</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="redes socias">
+            <h3>Redes Socias</h3>
+            <i class="fa-brands fa-instagram">  Instagram</i>
+            <i class="fa-brands fa-facebook">  Facebook</i>
+            <i class="fa-brands fa-youtube">  Youtube</i>
+            <i class="fa-brands fa-twitter"> Twitter</i>
+            <i class="fa-brands fa-linkedin"> Linkedin</i>
+        </div><br>
+
+        <div class="form-group">
+            <h3>Assine nossa newsletter</h3>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Seu melhor email">
+          </div>
+
+        <div>
+
+        </div>
+
+
+       
+            
+              <div class="col-md-6 col-sm-6">
+                <p>Todos os direitos reservados © 2023 Empresa XYZ</p>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <ul class="list-inline">
+                  <li><a href="#">Política de privacidade</a></li>
+                  <li><a href="#">Termos de serviço</a></li>
+                  <li><a href="#">Mapa do site</a></li>
+                </ul>
+              </div>
+            
+
+    </footer>
+
+</body>
+</html>
